@@ -46,7 +46,7 @@ def application(env, SR):
 
 	# response to request for directory
 	# with index.md page within, it exists
-	fname = 'MD_ROOT%s' % path_info
+	fname = '%s%s' % (MD_ROOT, path_info)
 	if os.path.isdir(fname):
 		fname += '/index.md'
 
