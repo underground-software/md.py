@@ -3,12 +3,11 @@
 import markdown as markdown
 import os, sys
 
-from orbit import appver, messageblock, appver, ROOT
+from orbit import appver, messageblock, ROOT
 
 HTML_404 = '<h1> 404: PAGE NOT FOUND </h1>'
 _500	= '500 Internal Server Error'
 _500_MSG=b'500 Internal Server Error\n\nunable to load format pre-reqs'
-
 
 def read_file(filename, mode='r'):
 	output = ''
