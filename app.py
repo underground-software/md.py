@@ -2,7 +2,6 @@
 
 import markdown as markdown
 import os, sys
-from config import PREPEND, MD_ROOT, DEBUG, HTML_404
 
 from orbit import appver, messageblock, ROOT
 
