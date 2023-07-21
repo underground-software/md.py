@@ -29,7 +29,7 @@ def application(env, SR):
 
 	# response to request for directory
 	# with index.md page within, it exists
-	fname = '%s%s' % (ROOT = '/md', path_info)
+	fname = '%s%s' % (ROOT + '/md', path_info)
 	if os.path.isdir(fname):
 		fname += '/index.md'
 
