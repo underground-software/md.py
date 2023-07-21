@@ -2,5 +2,5 @@
 
 ### uwsgi markdown server
 
-* install & config: `cp config.py.template config.py && vim config.py`
+* install using orbit [cano.py](https://github.com/underground-software/cano.py)
 * run: `uwsgi start.init`

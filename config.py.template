@@ -1,6 +1,0 @@
-#!/bin/env python3
-
-PREPEND 	= ['/path/to', '/files/to', '/prepend']
-MD_ROOT		= '/serve/md/from/here'
-HTML_404	= '<h1>HTTP ERROR 404: NOT FOUND</h1>'
-DEBUG		= False
