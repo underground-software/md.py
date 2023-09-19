@@ -35,7 +35,7 @@ def application(env, SR):
 	# return any .md file in MD_ROOT
 	try:
 		with open(fname, 'r', newline='') as f:
-			output += markdown.markdown(f.read(), extensions=['tables'])
+			output += markdown.markdown(f.read(), extensions=['tables', 'fenced_code'])
 		status = '200 Ok'
 	except Exception as e:
 		output += HTML_404
